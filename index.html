@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta name="theme-color" content="#5a57bf">
+  <title>라프텔 - 애니 추천 · 애니 스트리밍 서비스</title>
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="icon" href="img/favicon-152.png" type="image/png" sizes="152x152">
+  <link rel="apple-touch-icon" href="img/favicon-152.png" type="image/png" sizes="152x152">
+  <link rel="stylesheet" href="css/notosanskr.css">
+  <link rel="stylesheet" href="css/icon.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="header">
+    <div class="inner wrap">
+      <div class="left">
+        <h1 class="logo"><a href="#"><svg width="66" height="17" viewBox="0 0 66 17" xmlns="http://www.w3.org/2000/svg"><g fill="currentColor" fill-rule="evenodd"><path d="M4.911 16.884h2.446c.87 0 1.574-.707 1.574-1.579V15c0-.871-.704-1.578-1.574-1.578H4.911a1.465 1.465 0 0 1-1.458-1.463V2.185c0-.871-.705-1.578-1.575-1.578h-.304C.705.607 0 1.314 0 2.185v9.774c0 2.709 2.21 4.925 4.911 4.925M35.298 4.07h1.66v11.236c0 .871.705 1.577 1.574 1.577h.305c.87 0 1.574-.706 1.574-1.578V4.07h1.66c.87 0 1.574-.707 1.574-1.579v-.305c0-.871-.705-1.578-1.574-1.578h-6.773c-.87 0-1.574.707-1.574 1.578v.305c0 .872.705 1.58 1.574 1.58M46.487 16.852c.103.02.21.032.318.032h6.345c.87 0 1.574-.707 1.574-1.579V15c0-.871-.705-1.578-1.574-1.578H48.683V10.49h3.473c.868 0 1.573-.706 1.573-1.578v-.306c0-.871-.705-1.578-1.574-1.578h-3.472V4.07H53.15c.87 0 1.574-.707 1.574-1.578v-.305c0-.872-.705-1.579-1.574-1.579H46.805c-.87 0-1.575.707-1.575 1.579v13.119c0 .763.54 1.4 1.257 1.547M14.397 5.576c0-.727.51-1.377 1.228-1.49.903-.14 1.69.566 1.69 1.446v3.606h-2.918V5.576zm-1.88 11.308h.305c.87 0 1.575-.707 1.575-1.579V12.6h2.918v2.705c0 .872.704 1.579 1.573 1.579h.305c.87 0 1.574-.707 1.574-1.579V5.532c0-2.842-2.433-5.142-5.313-4.909-2.567.208-4.51 2.427-4.51 5.01v9.672c0 .872.704 1.579 1.574 1.579zM28.12 4.07h2.445c.869 0 1.574-.708 1.574-1.58v-.305c0-.871-.705-1.578-1.574-1.578h-2.446c-2.7 0-4.91 2.216-4.91 4.925v9.773c0 .872.703 1.578 1.573 1.578h.304c.87 0 1.574-.706 1.574-1.578V10.92h3.905c.869 0 1.574-.707 1.574-1.579v-.304c0-.872-.705-1.579-1.574-1.579H26.66V5.532c0-.805.657-1.463 1.46-1.463M61.649 16.884h2.445c.87 0 1.574-.707 1.574-1.579V15c0-.871-.705-1.578-1.574-1.578h-2.445c-.803 0-1.46-.658-1.46-1.463V2.185c0-.871-.705-1.578-1.573-1.578h-.305c-.87 0-1.574.707-1.574 1.578v9.774c0 2.709 2.21 4.925 4.912 4.925"></path></g></svg></a></h1>
+        <nav class="menu-wrap">
+          <ul class="menu">
+            <li><a href="#">태그검색</a></li>
+            <li><a href="#">요일별 신작</a></li>
+            <li><a href="#">테마추천</a></li>
+            <li><a href="#">멤버십</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="right">
+        <button type="button" class="search"><span class="material-icons">search</span></button>
+        <a href="#" class="acc">로그인/가입</a>
+        <button type="button" class="menu"><span class="material-icons">menu</span></button>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section id="visual">
+      <div class="swiper slide-vi">
+        <ul class="swiper-wrapper slide-wrap">
+          <li class="swiper-slide item">
+            <div class="pic">
+              <img src="img/visual/01.jpg" class="pc" alt="역전세계의 전지소녀 pc 표지">
+              <img src="img/visual/01_m.jpg" class="mo" alt="역전세계의 전지소녀 mobile 표지">
+            </div>
+            <div class="info">
+              <img src="img/visual/01_logo.png" class="visual-logo" alt="역전세계의 전지소녀 로고">
+              <p class="text">오타쿠는 절대 죽지 않아!</p>
+              <a href="#" class="view">보러가기</a>
+            </div>
+          </li>
+          <li class="swiper-slide item">
+            <div class="pic">
+              <img src="img/visual/02.jpg" class="pc" alt="보이는 여고생 pc 표지">
+              <img src="img/visual/02_m.jpg" class="mo" alt="보이는 여고생 mobile 표지">
+            </div>
+            <div class="info">
+              <img src="img/visual/02_logo.png" class="visual-logo" alt="보이는 여고생 로고">
+              <p class="text">너... 내가 보이니...?</p>
+              <a href="#" class="view">보러가기</a>
+            </div>
+          </li>
+        </ul>
+        <span class="swiper-pagination pagi-wrap"></span>
+        <button type="button" class="swiper-button-prev"></button>
+        <button type="button" class="swiper-button-next"></button>
+      </div>
+    </section>
+    <section id="daily" class="contents">
+      <ul class="tab-wrap">
+        <li><a href="#mon">월</a></li>
+        <li><a href="#tue">화</a></li>
+        <li><a href="#wed">수</a></li>
+        <li><a href="#thu">목</a></li>
+        <li><a href="#fri">금</a></li>
+        <li><a href="#sat">토</a></li>
+        <li><a href="#sun">일</a></li>
+      </ul>
+      <ul class="tab-view">
+        <li id="mon">
+          <div class="top wrap">
+            <h2 class="title">요일별 신작</h2>
+            <span class="btn-wrap">
+              <button type="button" class="btn prev"><span class="material-icons">navigate_before</span></button>
+              <button type="button" class="btn next"><span class="material-icons">navigate_next</span></button>
+            </span>
+          </div>
+          <div class="bottom swiper slide-con">
+            <div class="swiper-wrapper slide-wrap">
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/01/01.jpg" alt="유유백서 리마스터 표지">
+                <p class="sub-title">유유백서 리마스터</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/01/02.jpg" alt="무직전생:이세계에 갔으면 최선을 다한다 2기 표지">
+                <p class="sub-title">무직전생:이세계에 갔으면 최선을 다한다 2기</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/01/03.jpg" alt="선배가 짜증나는 후배이야기 표지">
+                <p class="sub-title">선배가 짜증나는 후배이야기</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/01/04.jpg" alt="드래곤 퀘스트:다이의 대모험 part 5 표지">
+                <p class="sub-title">드래곤 퀘스트:다이의 대모험 part 5</p>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li id="tue">
+          <div class="top wrap">
+            <h2 class="title">요일별 신작</h2>
+            <span class="btn-wrap">
+              <button type="button" class="btn prev"><span class="material-icons">navigate_before</span></button>
+              <button type="button" class="btn next"><span class="material-icons">navigate_next</span></button>
+            </span>
+          </div>
+          <div class="bottom swiper slide-con">
+            <div class="swiper-wrapper slide-wrap">
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/02/01.jpg" alt="은혼 1기 표지">
+                <p class="sub-title">은혼 1기</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/02/02.jpg" alt="나의 히어로 아카데미아 5기 표지">
+                <p class="sub-title">나의 히어로 아카데미아 5기</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/02/03.jpg" alt="변경의 팔라딘 표지">
+                <p class="sub-title">변경의 팔라딘</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/02/04.jpg" alt="다이쇼 소녀 전래동화 표지">
+                <p class="sub-title">다이쇼 소녀 전래동화</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/02/05.jpg" alt="플래티넘 엔드 표지">
+                <p class="sub-title">플래티넘 엔드</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/02/06.jpg" alt="비주얼 프리즌 표지">
+                <p class="sub-title">비주얼 프리즌</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/02/07.jpg" alt="루팡 3세 part 6 표지">
+                <p class="sub-title">루팡 3세 part 6</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/02/08.jpg" alt="시키자쿠라 표지">
+                <p class="sub-title">시키자쿠라</p>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li id="wed">
+          <div class="top wrap">
+            <h2 class="title">요일별 신작</h2>
+            <span class="btn-wrap">
+              <button type="button" class="btn prev"><span class="material-icons">navigate_before</span></button>
+              <button type="button" class="btn next"><span class="material-icons">navigate_next</span></button>
+            </span>
+          </div>
+          <div class="bottom swiper slide-con">
+            <div class="swiper-wrapper slide-wrap">
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/03/01.jpg" alt="마계학교 이루마군 표지">
+                <p class="sub-title">마계학교 이루마군</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/03/02.jpg" alt="귀멸의 칼날:무한열차편 표지">
+                <p class="sub-title">귀멸의 칼날:무한열차편</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/03/03.jpg" alt="takt op.Destiny 표지">
+                <p class="sub-title">takt op.Destiny</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/03/04.jpg" alt="보이는 여고생 표지">
+                <p class="sub-title">보이는 여고생</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/03/05.jpg" alt="흡혈귀는 툭하면 죽는다 표지">
+                <p class="sub-title">흡혈귀는 툭하면 죽는다</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/03/06.jpg" alt="역전세계의 전지소녀 표지">
+                <p class="sub-title">역전세계의 전지소녀</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/03/07.jpg" alt="빌디바이드 CODE:BLACK 표지">
+                <p class="sub-title">빌디바이드 CODE:BLACK</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/03/08.jpg" alt="이누야샤 2기 표지">
+                <p class="sub-title">이누야샤 2기</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/03/09.jpg" alt="드래곤 퀘스트:다이의 대모험 part 2 표지">
+                <p class="sub-title">드래곤 퀘스트:다이의 대모험 part 2</p>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li id="thu">
+          <div class="top wrap">
+            <h2 class="title">요일별 신작</h2>
+            <span class="btn-wrap">
+              <button type="button" class="btn prev"><span class="material-icons">navigate_before</span></button>
+              <button type="button" class="btn next"><span class="material-icons">navigate_next</span></button>
+            </span>
+          </div>
+          <div class="bottom swiper slide-con">
+            <div class="swiper-wrapper slide-wrap">
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/04/01.jpg" alt="환상게임 표지">
+                <p class="sub-title">환상게임</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/04/02.jpg" alt="도깨비 언덕에 왜 왔니? 표지">
+                <p class="sub-title">도깨비 언덕에 왜 왔니?</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/04/03.jpg" alt="달과 라이카와 흡혈공주 표지">
+                <p class="sub-title">달과 라이카와 흡혈공주</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/04/04.jpg" alt="경계전기 표지">
+                <p class="sub-title">경계전기</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/04/05.jpg" alt="팝 팀 에픽 REPEAT(remix version) 표지">
+                <p class="sub-title">팝 팀 에픽 REPEAT(remix version)</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/04/06.jpg" alt="Deep Insanity THE LOST CHILD 표지">
+                <p class="sub-title">Deep Insanity THE LOST CHILD</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/04/07.jpg" alt="테슬라 노트 표지">
+                <p class="sub-title">테슬라 노트</p>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li id="fri">
+          <div class="top wrap">
+            <h2 class="title">요일별 신작</h2>
+            <span class="btn-wrap">
+              <button type="button" class="btn prev"><span class="material-icons">navigate_before</span></button>
+              <button type="button" class="btn next"><span class="material-icons">navigate_next</span></button>
+            </span>
+          </div>
+          <div class="bottom swiper slide-con">
+            <div class="swiper-wrapper slide-wrap">
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/05/01.jpg" alt="천관사복 표지">
+                <p class="sub-title">천관사복</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/05/02.jpg" alt="진정한 동료가 아니라고 용사 파티에서 쫓겨났기 때문에, 변경에서 슬로우 라이프... 표지">
+                <p class="sub-title">진정한 동료가 아니라고 용사 파티에서 쫓겨났기 때문에, 변경에서 슬로우 라이프...</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/05/03.jpg" alt="하얀 모래의 아쿠아톱 part 2 표지">
+                <p class="sub-title">하얀 모래의 아쿠아톱 part 2</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/05/04.jpg" alt="진화의 열매 ~모르는 사이 성공한 인생~ 표지">
+                <p class="sub-title">진화의 열매 ~모르는 사이 성공한 인생~</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/05/05.jpg" alt="백요보 표지">
+                <p class="sub-title">백요보</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/05/06.jpg" alt="프라오레! PRIDE OF ORANGE 표지">
+                <p class="sub-title">프라오레! PRIDE OF ORANGE</p>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li id="sat">
+          <div class="top wrap">
+            <h2 class="title">요일별 신작</h2>
+            <span class="btn-wrap">
+              <button type="button" class="btn prev"><span class="material-icons">navigate_before</span></button>
+              <button type="button" class="btn next"><span class="material-icons">navigate_next</span></button>
+            </span>
+          </div>
+          <div class="bottom swiper slide-con">
+            <div class="swiper-wrapper slide-wrap">
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/06/01.jpg" alt="그 여름 표지">
+                <p class="sub-title">그 여름</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/06/02.jpg" alt="명탐정 코난 2021 표지">
+                <p class="sub-title">명탐정 코난 2021</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/06/03.jpg" alt="마이코네 행복한 밥상 표지">
+                <p class="sub-title">마이코네 행복한 밥상</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/06/04.jpg" alt="세계 최고의 암살자, 이세계 귀족으로 전생하다 표지">
+                <p class="sub-title">세계 최고의 암살자, 이세계 귀족으로 전생하다</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/06/05.jpg" alt="토리코 1기 part 2 표지">
+                <p class="sub-title">토리코 1기 part 2</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/06/06.jpg" alt="이세계 식당 2기 표지">
+                <p class="sub-title">이세계 식당 2기</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/06/07.jpg" alt="SELECTION PROJECT 표지">
+                <p class="sub-title">SELECTION PROJECT</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/06/08.jpg" alt="유우키 유우나는 용사다 -대만개의 장- 표지">
+                <p class="sub-title">유우키 유우나는 용사다 -대만개의 장-</p>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li id="sun">
+          <div class="top wrap">
+            <h2 class="title">요일별 신작</h2>
+            <span class="btn-wrap">
+              <button type="button" class="btn prev"><span class="material-icons">navigate_before</span></button>
+              <button type="button" class="btn next"><span class="material-icons">navigate_next</span></button>
+            </span>
+          </div>
+          <div class="bottom swiper slide-con">
+            <div class="swiper-wrapper slide-wrap">
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/07/01.jpg" alt="쟈히님은 기죽지 않아! 표지">
+                <p class="sub-title">쟈히님은 기죽지 않아!</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/07/02.jpg" alt="네 귀가 보여 표지">
+                <p class="sub-title">네 귀가 보여</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/daily/07/03.jpg" alt="86 -에이티식스- 2기 표지">
+                <p class="sub-title">86 -에이티식스- 2기</p>
+              </a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section id="con" class="contents">
+      <ul class="con-wrap">
+        <li>
+          <div class="top wrap">
+            <h2 class="title">이토록 아름답고 잔혹한 세계</h2>
+            <span class="btn-wrap">
+              <button type="button" class="btn prev"><span class="material-icons">navigate_before</span></button>
+              <button type="button" class="btn next"><span class="material-icons">navigate_next</span></button>
+            </span>
+          </div>
+          <div class="bottom swiper slide-con">
+            <div class="swiper-wrapper slide-wrap">
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover/01.jpg" alt="킬라킬 표지">
+                <p class="sub-title">킬라킬</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover/02.jpg" alt="오버로드 1기 표지">
+                <p class="sub-title">오버로드 1기</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover/03.jpg" alt="나만이 없는 거리 표지">
+                <p class="sub-title">나만이 없는 거리</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover/04.jpg" alt="메이드 인 어비스 표지">
+                <p class="sub-title">메이드 인 어비스</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover/05.jpg" alt="약속의 네버랜드 1기 표지">
+                <p class="sub-title">약속의 네버랜드 1기</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover/06.jpg" alt="데카당스 표지">
+                <p class="sub-title">데카당스</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover/07.jpg" alt="86 -에이티식스- 표지">
+                <p class="sub-title">86 -에이티식스-</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover/08.jpg" alt="(더빙) 데스노트 리마스터 표지">
+                <p class="sub-title">(더빙) 데스노트 리마스터</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover/09.jpg" alt="진격의 거인 1기 표지">
+                <p class="sub-title">진격의 거인 1기</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover/10.jpg" alt="갑철성의 카바네리 표지">
+                <p class="sub-title">갑철성의 카바네리</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover/11.jpg" alt="종말에 뭐하세요? 바쁘세요? 구해주실 수 있나요? 표지">
+                <p class="sub-title">종말에 뭐하세요? 바쁘세요? 구해주실 수 있나요?</p>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="top wrap">
+            <h2 class="title">귀여움은 정의! 보기만 해도 엄빠 미소가 나오는 애니</h2>
+            <span class="btn-wrap">
+              <button type="button" class="btn prev"><span class="material-icons">navigate_before</span></button>
+              <button type="button" class="btn next"><span class="material-icons">navigate_next</span></button>
+            </span>
+          </div>
+          <div class="bottom swiper slide-con">
+            <div class="swiper-wrapper slide-wrap">
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_02/01.jpg" alt="토끼 드롭스 표지">
+                <p class="sub-title">토끼 드롭스</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_02/02.jpg" alt="중2병이라도 사랑이 하고 싶어! 표지">
+                <p class="sub-title">중2병이라도 사랑이 하고 싶어!</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_02/03.jpg" alt="가브릴 드롭아웃 표지">
+                <p class="sub-title">가브릴 드롭아웃</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_02/04.jpg" alt="용왕이 하는 일! 표지">
+                <p class="sub-title">용왕이 하는 일!</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_02/05.jpg" alt="장난을 잘 치는 타카기 양 표지">
+                <p class="sub-title">장난을 잘 치는 타카기 양</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_02/06.jpg" alt="히나마츠리 표지">
+                <p class="sub-title">히나마츠리</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_02/07.jpg" alt="극장판 금빛 모자이크:프리티 데이즈 표지">
+                <p class="sub-title">극장판 금빛 모자이크:프리티 데이즈</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_02/08.jpg" alt="일하는 세포 표지">
+                <p class="sub-title">일하는 세포</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_02/09.jpg" alt="이웃집 흡혈귀 씨 표지">
+                <p class="sub-title">이웃집 흡혈귀 씨</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_02/10.jpg" alt="나에게 천사가 내려왔다! 표지">
+                <p class="sub-title">나에게 천사가 내려왔다!</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_02/11.jpg" alt="도우미 여우 센코 씨 표지">
+                <p class="sub-title">도우미 여우 센코 씨</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_02/12.jpg" alt="우리 딸을 위해서라면, 나는 마왕도 쓰러뜨릴 수 있을지 몰라 표지">
+                <p class="sub-title">우리 딸을 위해서라면, 나는 마왕도 쓰러뜨릴 수 있을지 몰라</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_02/13.jpg" alt="책벌레의 하극상 ~사서가 되기 위해서라면 뭐든지 할 수 있어~ 1기 표지">
+                <p class="sub-title">책벌레의 하극상 ~사서가 되기 위해서라면 뭐든지 할 수 있어~ 1기</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_02/14.jpg" alt="ARIA The ANIMATION 표지">
+                <p class="sub-title">ARIA The ANIMATION</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_02/15.jpg" alt="주문은 토끼입니까? 1기 표지">
+                <p class="sub-title">주문은 토끼입니까? 1기</p>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="top wrap">
+            <h2 class="title">닭살 돋는 짜릿한 스릴러</h2>
+            <span class="btn-wrap">
+              <button type="button" class="btn prev"><span class="material-icons">navigate_before</span></button>
+              <button type="button" class="btn next"><span class="material-icons">navigate_next</span></button>
+            </span>
+          </div>
+          <div class="bottom swiper slide-con">
+            <div class="swiper-wrapper slide-wrap">
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_03/01.jpg" alt="아카메가 벤다! 표지">
+                <p class="sub-title">아카메가 벤다!</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_03/02.jpg" alt="학교생활! 표지">
+                <p class="sub-title">학교생활!</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_03/03.jpg" alt="살육의 천사 표지">
+                <p class="sub-title">살육의 천사</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_03/04.jpg" alt="진격의 거인:크로니클 표지">
+                <p class="sub-title">진격의 거인:크로니클</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_03/05.jpg" alt="무능한 나나 표지">
+                <p class="sub-title">무능한 나나</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_03/06.jpg" alt="쓰르라미 울 적에 업 part 1 표지">
+                <p class="sub-title">쓰르라미 울 적에 업 part 1</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_03/07.jpg" alt="약속의 네버랜드 2기 표지">
+                <p class="sub-title">약속의 네버랜드 2기</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_03/08.jpg" alt="쓰르라미 울 적에 업 part 2 표지">
+                <p class="sub-title">쓰르라미 울 적에 업 part 2</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_03/09.jpg" alt="섀도 하우스 표지">
+                <p class="sub-title">섀도 하우스</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_03/10.jpg" alt="진격의 거인 1기 표지">
+                <p class="sub-title">진격의 거인 1기</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_03/11.jpg" alt="약속의 네버랜드 1기 표지">
+                <p class="sub-title">약속의 네버랜드 1기</p>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="top wrap">
+            <h2 class="title">홈캉스! 집에서 즐기는 여름의 향기</h2>
+            <span class="btn-wrap">
+              <button type="button" class="btn prev"><span class="material-icons">navigate_before</span></button>
+              <button type="button" class="btn next"><span class="material-icons">navigate_next</span></button>
+            </span>
+          </div>
+          <div class="bottom swiper slide-con">
+            <div class="swiper-wrapper slide-wrap">
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_04/01.jpg" alt="바라카몬 표지">
+                <p class="sub-title">바라카몬</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_04/02.jpg" alt="Free! -Dive to the Future- 표지">
+                <p class="sub-title">Free! -Dive to the Future-</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_04/03.jpg" alt="하루카나 리시브 표지">
+                <p class="sub-title">하루카나 리시브</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_04/04.jpg" alt="마녀의 여행 표지">
+                <p class="sub-title">마녀의 여행</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_04/05.jpg" alt="어쨌든 귀여워 표지">
+                <p class="sub-title">어쨌든 귀여워</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_04/06.jpg" alt="신들에게 주워진 남자 표지">
+                <p class="sub-title">신들에게 주워진 남자</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_04/07.jpg" alt="WAVE!! ~서핑하자!!~ 표지">
+                <p class="sub-title">WAVE!! ~서핑하자!!~</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_04/08.jpg" alt="괴롭히지 말아요, 나가토로 양 표지">
+                <p class="sub-title">괴롭히지 말아요, 나가토로 양</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_04/09.jpg" alt="바람이 강하게 불고 있다 표지">
+                <p class="sub-title">바람이 강하게 불고 있다</p>
+              </a>
+              <a href="#" class="swiper-slide item">
+                <img src="img/cover_04/10.jpg" alt="호리미야 표지">
+                <p class="sub-title">호리미야</p>
+              </a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer id="footer">
+    <div class="inner">
+      <div class="top wrap">
+        <div class="left">
+          <h1 class="flogo"><a href="#"><svg width="72" height="24" viewBox="0 0 72 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M40.099 7.252h-1.652a1.554 1.554 0 01-1.562-1.572v-.308c0-.866.697-1.572 1.562-1.572h6.735c.856 0 1.562.706 1.562 1.572v.308c0 .866-.696 1.572-1.562 1.572h-1.651v11.182c0 .865-.697 1.572-1.562 1.572h-.309a1.573 1.573 0 01-1.561-1.572V7.252zM10.652 20.006H8.215c-2.686 0-4.885-2.209-4.885-4.905v-9.72c0-.865.696-1.571 1.572-1.571H5.2c.866 0 1.562.706 1.562 1.572v9.72c0 .795.647 1.452 1.453 1.452h2.437c.865 0 1.562.706 1.562 1.572v.308c0 .865-.697 1.572-1.562 1.572zm38.927-.03c.1.02.21.03.319.03h6.317c.865 0 1.562-.707 1.562-1.572v-.299c0-.865-.707-1.571-1.562-1.571h-4.447v-2.925h3.452c.866 0 1.562-.707 1.562-1.572v-.299c0-.865-.706-1.571-1.562-1.571h-3.452V7.252h4.447c.865 0 1.562-.706 1.562-1.572v-.308c0-.866-.707-1.572-1.562-1.572h-6.317c-.866 0-1.572.706-1.572 1.572v13.062c0 .756.537 1.393 1.253 1.542zM18.88 7.272c-.716.11-1.224.756-1.224 1.482v3.552h2.905V8.714c0-.875-.786-1.581-1.68-1.442zm-2.785 12.734h-.309a1.575 1.575 0 01-1.572-1.572v-9.62c0-2.577 1.94-4.785 4.497-4.984 2.865-.229 5.282 2.06 5.282 4.884v9.72c0 .865-.696 1.572-1.561 1.572h-.309a1.567 1.567 0 01-1.562-1.572v-2.686h-2.905v2.686c0 .865-.696 1.572-1.561 1.572zm15.21-12.754h2.428c.865 0 1.562-.706 1.562-1.572v-.308c0-.866-.697-1.572-1.562-1.572h-2.438c-2.686 0-4.884 2.208-4.884 4.904v9.72c0 .865.696 1.572 1.562 1.572h.298c.866 0 1.562-.707 1.562-1.572v-4.357h3.89c.865 0 1.562-.707 1.562-1.572v-.299c0-.865-.697-1.572-1.562-1.572h-3.89v-1.91c.02-.805.677-1.462 1.472-1.462zm35.794 12.754h-2.437c-2.686 0-4.885-2.209-4.875-4.905v-9.72c0-.865.697-1.571 1.562-1.571h.308c.856 0 1.562.706 1.562 1.572v9.72a1.46 1.46 0 001.453 1.452h2.427c.856 0 1.562.706 1.562 1.571v.309c0 .865-.696 1.572-1.562 1.572z" fill="currentColor"></path></svg></a></h1>
+          <nav class="footer-menu">
+            <ul class="smap">
+              <li><a href="#">회사소개</a></li>
+              <li><a href="#">고객센터</a></li>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">청소년보호정책</a></li>
+              <li><a href="#">개인정보 처리방침</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="right">
+          <ul class="sns">
+            <li><a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 6.736a7.394 7.394 0 01-2.12.58 3.702 3.702 0 001.623-2.043 7.373 7.373 0 01-2.345.896 3.694 3.694 0 00-6.293 3.37 10.487 10.487 0 01-7.612-3.86 3.694 3.694 0 001.143 4.93 3.685 3.685 0 01-1.672-.461v.047a3.694 3.694 0 002.962 3.621 3.72 3.72 0 01-1.668.064 3.695 3.695 0 003.45 2.564A7.41 7.41 0 013 17.974a10.444 10.444 0 005.66 1.659c6.794 0 10.508-5.627 10.508-10.507 0-.159-.004-.319-.011-.477a7.507 7.507 0 001.841-1.91L21 6.735z" fill="currentColor"></path></svg></a></li>
+            <li><a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 5c-8.845 0-9 .787-9 6.93s.155 6.93 9 6.93 9-.787 9-6.93S20.845 5 12 5zm2.884 7.23l-4.04 1.887c-.354.164-.644-.02-.644-.41v-3.554c0-.39.29-.574.644-.41l4.04 1.886c.354.166.354.436 0 .602z" fill="currentColor"></path></svg></a></li>
+            <li><a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.998 9.332A2.673 2.673 0 009.33 12a2.673 2.673 0 002.668 2.668A2.673 2.673 0 0014.666 12a2.673 2.673 0 00-2.668-2.668zM19.999 12c0-1.105.01-2.2-.052-3.302-.062-1.281-.354-2.418-1.29-3.355-.94-.938-2.074-1.228-3.355-1.29C14.197 3.99 13.102 4 12 4c-1.105 0-2.2-.01-3.302.052-1.281.062-2.418.354-3.355 1.29-.938.94-1.228 2.074-1.29 3.355C3.99 9.803 4 10.898 4 12c0 1.103-.01 2.2.052 3.302.062 1.281.354 2.418 1.29 3.355.94.938 2.074 1.228 3.355 1.29 1.104.062 2.2.052 3.302.052 1.105 0 2.2.01 3.302-.052 1.28-.062 2.418-.354 3.354-1.29.939-.94 1.229-2.074 1.291-3.355C20.011 14.2 20 13.105 20 12zm-8.001 4.105A4.099 4.099 0 017.893 12a4.099 4.099 0 014.105-4.105A4.099 4.099 0 0116.102 12a4.099 4.099 0 01-4.104 4.105zm4.273-7.42a.958.958 0 110-1.917.957.957 0 110 1.918z" fill="currentColor"></path></svg></a></li>
+            <li><a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.302 4.013c.872-.013 1.74-.005 2.606-.013.053 1.02.42 2.06 1.167 2.782.745.74 1.8 1.078 2.826 1.192v2.685c-.961-.032-1.927-.232-2.8-.646a8.107 8.107 0 01-1.08-.62c-.005 1.948.007 3.894-.013 5.834a5.075 5.075 0 01-.902 2.628c-.872 1.278-2.385 2.112-3.94 2.138-.953.054-1.906-.206-2.718-.685-1.347-.794-2.295-2.247-2.433-3.807-.017-.33-.02-.662-.008-.992A4.998 4.998 0 016.73 11.2c1.104-.962 2.65-1.42 4.099-1.149.013.988-.026 1.974-.026 2.962-.662-.214-1.435-.154-2.013.248a2.31 2.31 0 00-.91 1.166c-.137.338-.098.714-.09 1.073.159 1.094 1.21 2.013 2.334 1.914.744-.008 1.458-.44 1.846-1.073.125-.221.266-.448.273-.708.066-1.193.04-2.38.048-3.573.005-2.688-.008-5.368.012-8.047z" fill="currentColor"></path></svg></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom">
+        <button type="button">리디(주) 사업자 정보<span class="material-icons">expand_more</span></button>
+        <ul class="entre">
+          <li><p>상호: 리디 주식회사 / 대표: 배기식</p></li>
+          <li><p>주소: 서울시 강남구 역삼동 702-28 어반벤치빌딩 10층 (테헤란로 325)</p></li>
+          <li><p>사업자등록번호: 120-87-27435 / 통신판매번호: 제 2009-서울강남 35-02139호</p></li>
+          <li><p>이메일: contact@laftel.net / 대표전화: 1644-0331</p></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
