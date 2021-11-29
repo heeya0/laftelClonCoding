@@ -161,7 +161,7 @@ $(function(){
     day =  (day == 0) ? 7 : day;
     if(day == idx){
       $('.tab-wrap>li').eq(idx - 1).css({'background-color':'#816bff'});
-      $('.tab-view>li').eq(idx - 1 ).hide().show();
+      $('.tab-view>li').eq(idx - 1).hide().show();
     }
   });
 
