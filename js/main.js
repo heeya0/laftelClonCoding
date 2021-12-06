@@ -154,16 +154,31 @@ $(function(){
     navigation: {nextEl: '#daily .tab-view>li#sun .next', prevEl: '#daily .tab-view>li#sun .prev'}
   });
 
-  let today = new Date();
-  let day = today.getDay();
+	let today = new Date();
+	let day = today.getDay();
 
-  $('.tab-wrap>li').each(function(idx){
-    day =  (day == 0) ? 7 : day;
-    if(day == idx){
-      $('.tab-wrap>li').eq(idx - 1).css({'background-color':'#816bff'});
-      $('.tab-view>li').eq(idx - 1).hide().show();
-    }
-  });
+	if(day<=0) {
+    $('.tab-wrap>li:nth-child(7)').css({'background-color':'#816bff'});
+		$('.tab-view>li:nth-child(7)').hide().show();
+  } else if(day<=1) {
+    $('.tab-wrap>li:nth-child(1)').css({'background-color':'#816bff'});
+		$('.tab-view>li:nth-child(1)').hide().show();
+  } else if(day<=2) {
+    $('.tab-wrap>li:nth-child(2)').css({'background-color':'#816bff'});
+		$('.tab-view>li:nth-child(2)').hide().show();
+  } else if(day<=3) {
+    $('.tab-wrap>li:nth-child(3)').css({'background-color':'#816bff'});
+		$('.tab-view>li:nth-child(3)').hide().show();
+  } else if(day<=4) {
+    $('.tab-wrap>li:nth-child(4)').css({'background-color':'#816bff'});
+		$('.tab-view>li:nth-child(4)').hide().show();
+  } else if(day<=5) {
+    $('.tab-wrap>li:nth-child(5)').css({'background-color':'#816bff'});
+		$('.tab-view>li:nth-child(5)').hide().show();
+  } else if(day<=6) {
+    $('.tab-wrap>li:nth-child(6)').css({'background-color':'#816bff'});
+		$('.tab-view>li:nth-child(6)').hide().show();
+  }
 
   $('.tab-wrap>li').on('click', function(e){
     e.preventDefault();
