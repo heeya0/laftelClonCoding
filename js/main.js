@@ -1,5 +1,11 @@
 $(function(){
   /*--------------------------------------------------
+  # 변수 선언
+  --------------------------------------------------*/
+  let today = new Date();
+  let day = today.getDay();
+
+  /*--------------------------------------------------
   # 헤더
   --------------------------------------------------*/
   $(window).scroll(function(){
@@ -153,9 +159,6 @@ $(function(){
     },
     navigation: {nextEl: '#daily .tab-view>li#sun .next', prevEl: '#daily .tab-view>li#sun .prev'}
   });
-
-  let today = new Date();
-  let day = today.getDay();
 
   if(day<=0) {
     $('.tab-wrap>li:nth-child(7)').css({'background-color':'#816bff'});
