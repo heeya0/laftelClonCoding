@@ -1,38 +1,8 @@
-@charset "UTF-8";
-
 /*--------------------------------------------------
 # 변수 선언
 --------------------------------------------------*/
 :root {
   --swiper-theme-color: #fff;
-}
-
-/*--------------------------------------------------
-# 초기화
---------------------------------------------------*/
-*, *::before, *::after {margin: 0;padding: 0;box-sizing: border-box;}
-body, input, textarea, button {font-family: 'Noto Sans KR', sans-serif, 나눔고딕, 돋움, Dotum, 굴림, Gulim, 'Apple SD Gothic Neo'!important;}
-button {background-color: transparent;border: 0;cursor: pointer;}
-img {display: block;width: 100%;height: 100%;}
-ul, ol, li {list-style: none;}
-a {text-decoration: none;}
-
-/*--------------------------------------------------
-# 공통
---------------------------------------------------*/
-.inner {width: 100%;padding: 0 50px;}
-.wrap {display: flex;flex-flow: row nowrap;justify-content: space-between;}
-@media screen and (max-width:1200px) {
-  .inner {padding: 0 4.1667vw;}
-}
-@media screen and (max-width:980px) {
-  .inner {padding: 0 4.0816vw;}
-}
-@media screen and (max-width:768px) {
-  .inner {padding: 0 3.9063vw;}
-}
-@media screen and (max-width:480px) {
-  .inner {padding: 0 4.1667vw;}
 }
 
 /*--------------------------------------------------
@@ -73,49 +43,6 @@ a {text-decoration: none;}
   #header.on .right .search:hover::after {display: none;}
   #header .right .acc {display: none;}
   #header .right .menu {display: flex;margin-left: 16px;}
-}
-
-/*--------------------------------------------------
-# 메인 공통
---------------------------------------------------*/
-#main .contents {margin: 40px 0 0;}
-#main .contents .wrap {align-items: center;margin-bottom: 8px;padding: 0 50px;}
-#main .contents .title {display: block;font-size: 28px;font-weight: 300;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
-#main .contents .btn-wrap {position: relative;bottom: -1px;right: -15px;display: flex;}
-#main .contents .btn {padding-left: 24px;}
-#main .contents .prev {padding: 0;}
-#main .contents .material-icons {display: flex;justify-content: center;font-size: 46px;}
-#main .contents .slide-con {padding: 0 50px;}
-#main .contents img {border-radius: 4px;}
-#main .contents .sub-title {display: block;color: #000;font-size: 18px;letter-spacing: -0.8px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
-@media screen and (max-width:1200px) {
-  #main .contents .wrap {padding: 0 4.1667vw;}
-  #main .contents .title {font-size: 2.3333vw;}
-  #main .contents .material-icons {font-size: 3.8333vw;}
-  #main .contents .slide-con {padding: 0 4.1667vw;}
-  #main .contents .sub-title {font-size: 1.5vw;}
-}
-@media screen and (max-width:980px) {
-  #main .contents .wrap {padding: 0 4.0816vw;}
-  #main .contents .title {font-size: 2.4490vw;}
-  #main .contents .btn-wrap {right: -12px;}
-  #main .contents .slide-con {padding: 0 4.0816vw;}
-  #main .contents .sub-title {font-size: 1.8367vw;}
-}
-@media screen and (max-width:768px) {
-  #main .contents .wrap {padding: 0 3.9063vw;}
-  #main .contents .title {font-size: 3.1250vw;}
-  #main .contents .btn-wrap {right: -14px;}
-  #main .contents .material-icons {font-size: 5.4688vw;}
-  #main .contents .slide-con {padding: 0 3.9063vw;}
-  #main .contents .sub-title {font-size: 2.3438vw;}
-}
-@media screen and (max-width:480px) {
-  #main .contents .wrap {padding: 0 4.1667vw;}
-  #main .contents .title {font-size: 5.2083vw;}
-  #main .contents .btn-wrap {display: none;}
-  #main .contents .slide-con {padding: 0 4.1667vw;}
-  #main .contents .sub-title {font-size: 3.7500vw;}
 }
 
 /*--------------------------------------------------
